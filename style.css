@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    height: 100vh;
+    background-color:hsl(185, 75%, 39%);
+}
+.background {
+    position: fixed;
+    left: -200px;
+    top: -600px;
+    z-index: -4;
+}
+
+.background2 {
+    position: fixed;
+    bottom: -600px;
+    right: -200px;
+    z-index: -4;
+}
+
+.container{
+    background-color: #FFF;
+    border-radius: 20px;
+}
+.perfil{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.top img{
+    border-radius: 20px 20px 0px 0px;
+}
+.victor{
+    background-color: #fff;
+    padding: 5px;
+    margin-top: -58px;
+    margin-bottom: -5px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+.id{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 50px;
+}
+.name{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:hsl(229, 23%, 23%);
+}
+
+.idade{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    font-size:19px;
+}
+
+.london{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    font-size:15px;
+    margin-top: 0px;
+}
+.seguidores{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid  hsl(0, 0%, 73%);
+    padding: 10px;
+    width: 95%;
+    padding-top: 25px;
+    margin-top: 12px;
+}
+.seg{
+    text-align: center;
+}
+.ti{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0px;
+    color: hsl(229, 23%, 23%);
+}    
+.text{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 10px;
+}
+
+@media (max-width:425px) {
+    .background {
+        left: -600px;
+        top: 350px;
+    }
+
+    .background2 {
+        bottom: 350px;
+        right: -600px;
+    }
+
+    .container{
+        width: 85%;
+    }
+    .top img{
+        width: 100%;
+    }
+    .victor{
+        width: 95px;
+        height: 95px;
+    }
+}
